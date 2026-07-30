@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vp2ledger"
+version = "1.0.0"
+description = "Daily CSV logger for a Davis Vantage Pro 2 weather station (WeatherLink Live)."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+vp2ledger = "vp2ledger.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
