@@ -182,4 +182,4 @@ src/vp2ledger/
 
 ## License
 
-Copyright © Christopher Manzi 2026. All rights reserved.
+Free for personal and other noncommercial use under the [PolyForm Noncommercial License 1.0.0](LICENSE). Commercial use requires a separate paid license from Christopher Manzi; see [Commercial licensing](COMMERCIAL-LICENSE.md).
